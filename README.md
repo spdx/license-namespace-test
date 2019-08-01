@@ -1,2 +1,2 @@
 # license-namespace-test
-Test repository for the license namespace
+This repository is for testing purposes only.
