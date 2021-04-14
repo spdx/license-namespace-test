@@ -1,0 +1,32 @@
+---
+SPDXID: "SPDXRef-DOCUMENT"
+spdxVersion: "SPDX-2.2"
+creationInfo:
+  comment: "This is a test license namespace document containing a single license"
+  created: "2010-01-29T18:30:22Z"
+  creators:
+  - "Person: Gary O'Neall"
+  licenseListVersion: "3.9"
+name: "testLicenseNamescpae"
+dataLicense: "CC0-1.0"
+comment: "This is a test license namespace document containing a single license"
+documentNamespace: "http://spdx.org/spdxdocs/spdx-example-444504E0-4F89-41D3-9A0C-0305E82C3301"
+documentDescribes:
+- "SPDXRef-DUMMY"
+hasExtractedLicensingInfos:
+- extractedText: "\"THE BEER-WARE LICENSE\" (Revision 42):\nphk@FreeBSD.ORG wrote\
+    \ this file. As long as you retain this notice you\ncan do whatever you want with\
+    \ this stuff. If we meet some day, and you think this stuff is worth it, you can\
+    \ buy me a beer in return Poul-Henning Kamp  </\nLicenseName: Beer-Ware License\
+    \ (Version 42)\nLicenseCrossReference:  http://people.freebsd.org/~phk/\nLicenseComment:\
+    \ \nThe beerware license has a couple of other standard variants."
+  licenseId: "LicenseRef-testnamespace-Beerware-4.2"
+packages:
+- SPDXID: "SPDXRef-DUMMY"
+  comment: "This is a dummy entry so that the SPDX document passes validation"
+  copyrightText: "NOASSERTION"
+  downloadLocation: "NOASSERTION"
+  filesAnalyzed: false
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "NOASSERTION"
+  name: "DUMMY PACKAGE"
